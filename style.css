@@ -1,0 +1,162 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  overflow: hidden;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.bubble {
+  display: inline;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+#submit {
+  background-color: transparent;
+  color: black;
+  border: 5px solid #4CAF50;
+  border-color: transparent;
+  width: 1000px;
+  height: 580px;
+  position: absolute;
+}
+#clear {
+  background-color: red;
+  border: 5px solid #4CAF50;
+  border-color: black;
+  z-index: 10;
+  bottom: 100px;
+  
+}
+
+input {
+  display: block;
+  padding: 5px;
+}
+
+#log {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+canvas {
+  position: center;
+  width: 100px;
+  padding: 200px;
+  top: 200px;
+}
+
+#rotating_img {
+  animation: rotation 4s infinite linear;
+  animation-fill-mode: forwards;
+  min-width: 50%;
+  min-height: 50%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  margin: auto;
+  top: -100%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+}
+
+.box {
+  padding: 10px;
+  margin-left: -10px;
+  margin-top: -10px;
+  background-color: blue;
+  position: absolute;
+}
+
+/*.backgroundimage {
+  z-index: -1;
+}
+*/
+#mouse {
+  position: absolute;
+  width: 100px;
+  left: 100px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+input {
+  display: block;
+  padding: 5px;
+}
+
+#anim_halfs {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#anim_4s {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#anim_16s {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#img_container {
+}
+
+.mousebox {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+#log {
+  display: none;
+}
+
+.boximage {
+  width: 100%;
+}
+
+
+#nameInput {
+  z-index: 10;
+}
+
+#feelingInput {
+  z-index: 10;
+}
